@@ -3,10 +3,10 @@ window.MOCK_DATA = {
     name: "Estudio Jurídico Mendoza & Asociados",
     tagline: "Justicia, ética y compromiso",
     description: "Más de 25 años defendiendo sus derechos con integridad y excelencia profesional.",
-    email: "contacto@mendoza-asociados.com",
-    phone: "+52 55 1234 5678",
-    whatsapp: "+52 55 8765 4321",
-    address: "Av. Reforma 456, Piso 12, Col. Juárez, CDMX 06600",
+    email: "contacto@mendozaasociados.cl",
+    phone: "+56 2 2345 6789",
+    whatsapp: "+56 9 8765 4321",
+    address: "Av. Apoquindo 4501, Piso 12, Las Condes, Santiago 7550000",
     founded: 1998
   },
 
@@ -24,7 +24,7 @@ window.MOCK_DATA = {
       bio: "Doctor en Derecho Civil con más de 30 años de experiencia en litigios de alto nivel.",
       photo: "https://images.unsplash.com/photo-1560250097-0b93528c3111?w=400&h=400&fit=crop",
       specialties: ["Civil", "Mercantil"],
-      email: "roberto@mendoza-asoc.com"
+      email: "roberto@mendozaasociados.cl"
     },
     {
       name: "Lic. Adriana Vega",
@@ -32,7 +32,7 @@ window.MOCK_DATA = {
       bio: "Especialista en derecho familiar y sucesiones, mediadora certificada.",
       photo: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop",
       specialties: ["Familiar", "Sucesiones"],
-      email: "adriana@mendoza-asoc.com"
+      email: "adriana@mendozaasociados.cl"
     },
     {
       name: "Lic. Carlos Ramírez",
@@ -40,7 +40,7 @@ window.MOCK_DATA = {
       bio: "Experto en derecho penal y juicios orales, catedrático universitario.",
       photo: "https://images.unsplash.com/photo-1560250097-0b93528c3111?w=400&h=400&fit=crop&seed=carlos",
       specialties: ["Penal", "Amparos"],
-      email: "carlos@mendoza-asoc.com"
+      email: "carlos@mendozaasociados.cl"
     },
     {
       name: "Lic. Sofía Hernández",
@@ -48,7 +48,7 @@ window.MOCK_DATA = {
       bio: "Abogada corporativa con maestría en derecho empresarial internacional.",
       photo: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop",
       specialties: ["Corporativo", "Fiscal"],
-      email: "sofia@mendoza-asoc.com"
+      email: "sofia@mendozaasociados.cl"
     },
     {
       name: "Lic. Miguel Torres",
@@ -56,7 +56,7 @@ window.MOCK_DATA = {
       bio: "Especialista en derecho laboral y seguridad social.",
       photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
       specialties: ["Laboral", "Seguridad Social"],
-      email: "miguel@mendoza-asoc.com"
+      email: "miguel@mendozaasociados.cl"
     },
     {
       name: "Lic. Patricia Núñez",
@@ -64,7 +64,7 @@ window.MOCK_DATA = {
       bio: "Experta en propiedad intelectual y nuevas tecnologías.",
       photo: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=400&fit=crop",
       specialties: ["Propiedad Intelectual", "Tecnología"],
-      email: "patricia@mendoza-asoc.com"
+      email: "patricia@mendozaasociados.cl"
     }
   ],
 
@@ -102,8 +102,8 @@ window.MOCK_DATA = {
     {
       icon: "file-text",
       title: "Derecho Fiscal",
-      description: "Planeación fiscal, defensa ante el SAT, amparos fiscales y recursos administrativos.",
-      areas: ["Planeación", "Defensa SAT", "Amparos", "Recursos"]
+      description: "Planeación tributaria, defensa ante el SII, amparos tributarios y recursos administrativos.",
+      areas: ["Planeación", "Defensa SII", "Amparos", "Recursos"]
     },
     {
       icon: "briefcase",
@@ -135,7 +135,7 @@ window.MOCK_DATA = {
     },
     {
       plan: "Asesoría Mensual",
-      price: "$4,500",
+      price: "$350.000",
       period: "/mes",
       description: "Acompañamiento legal continuo para su empresa",
       features: [
@@ -192,63 +192,6 @@ window.MOCK_DATA = {
     { src: "https://images.unsplash.com/photo-1573497019418-b400bb3b0748?w=800&h=600&fit=crop", alt: "Atención personalizada", category: "Equipo" }
   ],
 
-  schedule: [
-    {
-      day: "Lunes",
-      date: "20 Oct",
-      time: "18:00 - 20:00",
-      title: "Introducción al Derecho Laboral",
-      speaker: "Lic. Miguel Torres",
-      description: "Conozca sus derechos como trabajador y las bases legales para exigir su cumplimiento.",
-      category: "Laboral"
-    },
-    {
-      day: "Martes",
-      date: "21 Oct",
-      time: "19:00 - 21:00",
-      title: "Divorcio y Custodia: Lo que debe saber",
-      speaker: "Lic. Adriana Vega",
-      description: "Proceso legal, plazos, derechos y obligaciones en casos de divorcio y custodia.",
-      category: "Familiar"
-    },
-    {
-      day: "Miércoles",
-      date: "22 Oct",
-      time: "18:00 - 20:00",
-      title: "Constitución de Empresas",
-      speaker: "Lic. Carlos Ramírez",
-      description: "Aspectos legales para crear su empresa: tipos societarios, contratos y obligaciones.",
-      category: "Corporativo"
-    },
-    {
-      day: "Jueves",
-      date: "23 Oct",
-      time: "17:00 - 19:00",
-      title: "Defensa Penal y Juicios Orales",
-      speaker: "Lic. Carlos Ramírez",
-      description: "Cómo funciona el sistema penal acusatorio y sus garantías constitucionales.",
-      category: "Penal"
-    },
-    {
-      day: "Viernes",
-      date: "24 Oct",
-      time: "19:00 - 21:00",
-      title: "Planeación Fiscal para Personas Físicas",
-      speaker: "Lic. Sofía Hernández",
-      description: "Estrategias legales para optimizar su carga fiscal cumpliendo con la ley.",
-      category: "Fiscal"
-    },
-    {
-      day: "Sábado",
-      date: "25 Oct",
-      time: "10:00 - 12:00",
-      title: "Contratos Civiles y Comerciales",
-      speaker: "Lic. Roberto Mendoza",
-      description: "Cláusulas esenciales, pactos comunes y cláusulas abusivas que debe evitar.",
-      category: "Civil"
-    }
-  ],
-
   testimonials: [
     {
       name: "María González",
@@ -291,7 +234,7 @@ window.MOCK_DATA = {
     },
     {
       question: "¿Trabajan con clientes de otros estados?",
-      answer: "Sí, trabajamos en todo México y tenemos convenios con abogados corresponsales en otros países para casos internacionales."
+      answer: "Sí, trabajamos en todo Chile y tenemos convenios con abogados corresponsales en otros países para casos internacionales."
     },
     {
       question: "¿Ofrecen planes de pago?",
@@ -351,12 +294,11 @@ window.MOCK_DATA = {
     { label: "Servicios", href: "services.html" },
     { label: "Precios", href: "pricing.html" },
     { label: "Galería", href: "gallery.html" },
-    { label: "Clases", href: "schedule.html" },
     { label: "Contacto", href: "contact.html" }
   ]
 };
 
-window.formatCurrency = (n) => new Intl.NumberFormat('es-MX').format(n);
+window.formatCurrency = (n) => new Intl.NumberFormat('es-CL').format(n);
 window.checkIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>';
 window.closeIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>';
 window.chevronIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>';

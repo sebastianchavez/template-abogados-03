@@ -23,7 +23,6 @@ abogados-03/
 ├── services.html           # Nuestros servicios
 ├── pricing.html            # Precios y planes
 ├── gallery.html            # Galería
-├── schedule.html           # Horario de clases
 ├── contact.html            # Contacto (form + mapa + horarios)
 ├── privacy.html            # Políticas de privacidad
 ├── terms.html              # Términos y condiciones
@@ -72,7 +71,6 @@ abogados-03/
 - **Filtros** en galería por categoría
 - **Accordion FAQ** con details/summary
 - **Formulario** con validación y mensaje de éxito mock
-- **Tabs** en horarios (clases)
 
 ### Responsive
 - Mobile-first
@@ -89,8 +87,8 @@ Edita `assets/js/data.js`. Ejemplos:
 ```js
 firm: {
   name: "Tu Firma",
-  email: "tu@email.com",
-  phone: "+52 ..."
+  email: "tu@email.cl",
+  phone: "+56 ..."
 }
 
 team: [
@@ -119,7 +117,6 @@ Reemplaza las URLs de Unsplash por las tuyas en `data.js` o en cada HTML.
 | Servicios | `services.html` | Grid de 8 áreas + Proceso + FAQ |
 | Precios | `pricing.html` | 3 planes + Tabla comparativa + FAQ |
 | Galería | `gallery.html` | Grid filtrable + Lightbox |
-| Clases | `schedule.html` | Calendario semanal + Stats + Ponentes |
 | Contacto | `contact.html` | Formulario + Mapa + Horarios |
 | Privacidad | `privacy.html` | Política legal |
 | Términos | `terms.html` | Términos legales |

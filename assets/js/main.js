@@ -134,7 +134,7 @@
 
           <div class="flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-gray-400">
             <p>© <span id="year"></span> ${data.firm.name}. Todos los derechos reservados.</p>
-            <p>Cédula profesional: 12345678 | RFC: MAD980115ABC</p>
+            <p>Cédula profesional: 12345678 | RUT: 76.123.456-7</p>
           </div>
         </div>
       </footer>
